@@ -39,9 +39,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             await conn.sendMessage(from, {
                 image: buffer,
                 caption: `
-            🌟 *-------「 NETHU MD Image ${i + 1} from your search! 」-------* 🌟
+            🌟 *-------「 DARK HACKER MD Image ${i + 1} from your search! 」-------* 🌟
 
- ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴜ ᴍᴀx
+ ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ ᴛᴇᴀᴍ
 `
 }, { quoted: mek });
 }
